@@ -19,34 +19,22 @@
             overflow-x: hidden;
             color: #fff;
         }
-
         .orbitron {
             font-family: 'Orbitron', monospace;
         }
-
         .neon-text {
-            text-shadow: 0 0 10px rgba(59, 130, 246, 0.8),
-                0 0 20px rgba(59, 130, 246, 0.4),
-                0 0 30px rgba(59, 130, 246, 0.2);
+            text-shadow: 0 0 10px rgba(59, 130, 246, 0.8), 0 0 20px rgba(59, 130, 246, 0.4), 0 0 30px rgba(59, 130, 246, 0.2);
         }
-
         .neon-border {
-            box-shadow: 0 0 20px rgba(59, 130, 246, 0.5),
-                inset 0 0 20px rgba(59, 130, 246, 0.1);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.5), inset 0 0 20px rgba(59, 130, 246, 0.1);
         }
-
         .glass-panel {
             background: rgba(20, 20, 30, 0.8);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(59, 130, 246, 0.3);
         }
-
         .scanline {
-            background: linear-gradient(to bottom,
-                    rgba(255, 255, 255, 0),
-                    rgba(255, 255, 255, 0) 50%,
-                    rgba(0, 0, 0, 0.2) 50%,
-                    rgba(0, 0, 0, 0.2));
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2));
             background-size: 100% 4px;
             position: fixed;
             top: 0;
@@ -57,15 +45,11 @@
             z-index: 50;
             opacity: 0.3;
         }
-
         .grid-bg {
-            background-image:
-                linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+            background-image: linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
             background-size: 50px 50px;
             background-position: 0 0;
         }
-
         .cyber-btn {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
@@ -94,7 +78,6 @@
             cursor: not-allowed;
             filter: grayscale(100%);
         }
-
         .cyber-input {
             background: rgba(0, 0, 0, 0.5);
             border: 1px solid rgba(59, 130, 246, 0.3);
@@ -105,8 +88,6 @@
             box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
             outline: none;
         }
-
-        /* 消息气泡样式 */
         .msg-me {
             background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
             color: white;
@@ -138,7 +119,6 @@
             font-size: 0.85rem;
             border: 1px solid rgba(234, 179, 8, 0.3);
         }
-
         .member-online {
             border-left: 3px solid #10b981;
             background: rgba(16, 185, 129, 0.1);
@@ -153,7 +133,6 @@
             background: rgba(139, 92, 246, 0.2);
             box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
         }
-
         .fade-in {
             animation: fadeIn 0.3s ease-out;
         }
@@ -167,13 +146,11 @@
                 transform: translateY(0);
             }
         }
-
         .room-code {
             font-family: 'Orbitron', monospace;
             letter-spacing: 0.2em;
             text-shadow: 0 0 20px rgba(139, 92, 246, 0.8);
         }
-
         .connection-status {
             position: fixed;
             top: 20px;
@@ -210,7 +187,6 @@
                 opacity: 0.5;
             }
         }
-
         .target-btn {
             transition: all 0.3s;
             border: 1px solid rgba(59, 130, 246, 0.3);
@@ -224,7 +200,6 @@
             border-color: transparent;
             box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
         }
-
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -238,13 +213,11 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #2563eb;
         }
-
         .particle {
             position: absolute;
             pointer-events: none;
             opacity: 0;
         }
-
         @keyframes float {
             0%,
             100% {
@@ -258,7 +231,7 @@
             animation: float 3s ease-in-out infinite;
         }
 
-        /* ==================== 死神vs火影风格 - 选人界面 ==================== */
+        /* ==================== 选人界面 - 文字列表风格 ==================== */
         .bvns-select-bg {
             background: radial-gradient(ellipse at center, #1a0a0a 0%, #0a0000 50%, #000 100%);
             position: relative;
@@ -268,10 +241,7 @@
             content: '';
             position: absolute;
             inset: 0;
-            background:
-                radial-gradient(circle at 20% 80%, rgba(255, 100, 30, 0.15) 0%, transparent 40%),
-                radial-gradient(circle at 80% 20%, rgba(255, 200, 30, 0.1) 0%, transparent 40%),
-                radial-gradient(circle at 50% 50%, rgba(200, 50, 50, 0.08) 0%, transparent 60%);
+            background: radial-gradient(circle at 20% 80%, rgba(255, 100, 30, 0.15) 0%, transparent 40%), radial-gradient(circle at 80% 20%, rgba(255, 200, 30, 0.1) 0%, transparent 40%), radial-gradient(circle at 50% 50%, rgba(200, 50, 50, 0.08) 0%, transparent 60%);
             pointer-events: none;
             z-index: 0;
         }
@@ -293,107 +263,58 @@
             }
         }
 
-        .bvns-character-card {
-            position: relative;
-            cursor: pointer;
-            transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-            border: 3px solid rgba(80, 60, 50, 0.6);
-            background: rgba(20, 10, 5, 0.85);
-            border-radius: 16px;
-            overflow: hidden;
-            min-height: 180px;
+        .character-list-item {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            gap: 8px;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            margin-bottom: 0.75rem;
+            background: rgba(20, 10, 5, 0.7);
+            border: 2px solid rgba(80, 60, 50, 0.5);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
             backdrop-filter: blur(4px);
         }
-        .bvns-character-card:hover {
-            transform: translateY(-8px) scale(1.03);
-            border-color: rgba(255, 180, 50, 0.8);
-            box-shadow: 0 15px 40px rgba(255, 120, 20, 0.35), 0 0 80px rgba(255, 80, 0, 0.15);
-            z-index: 5;
+        .character-list-item:hover {
+            border-color: rgba(255, 180, 50, 0.9);
+            box-shadow: 0 8px 25px rgba(255, 120, 20, 0.3);
+            transform: translateY(-3px);
         }
-        .bvns-character-card.selected {
+        .character-list-item.selected {
             border-color: #fbbf24 !important;
-            box-shadow: 0 0 40px rgba(251, 191, 36, 0.7), 0 0 80px rgba(251, 150, 20, 0.4), 0 0 120px rgba(255, 120, 0, 0.25) !important;
-            transform: scale(1.06) !important;
-            z-index: 10 !important;
-            animation: bvnsSelectedPulse 0.8s ease-in-out infinite;
+            box-shadow: 0 0 30px rgba(251, 191, 36, 0.7), 0 0 50px rgba(251, 150, 20, 0.4) !important;
+            transform: scale(1.03) !important;
+            background: rgba(251, 191, 36, 0.1) !important;
         }
-        @keyframes bvnsSelectedPulse {
-            0%,
-            100% {
-                box-shadow: 0 0 40px rgba(251, 191, 36, 0.7), 0 0 80px rgba(251, 150, 20, 0.4);
-            }
-            50% {
-                box-shadow: 0 0 60px rgba(251, 191, 36, 1), 0 0 110px rgba(251, 150, 20, 0.7), 0 0 150px rgba(255, 100, 0, 0.4);
-            }
-        }
-        .bvns-character-card .card-glow {
-            position: absolute;
-            inset: -3px;
-            border-radius: 18px;
-            opacity: 0;
-            transition: opacity 0.3s;
-            pointer-events: none;
-            background: transparent;
-            z-index: -1;
-        }
-        .bvns-character-card.selected .card-glow {
-            opacity: 1;
-            background: linear-gradient(135deg, rgba(251, 191, 36, 0.5), transparent 40%, transparent 60%, rgba(251, 191, 36, 0.5));
-            animation: glowRotate 3s linear infinite;
-        }
-        @keyframes glowRotate {
-            0% {
-                filter: hue-rotate(0deg);
-            }
-            100% {
-                filter: hue-rotate(360deg);
-            }
-        }
-        .bvns-character-card .char-icon-display {
-            font-size: 3.5rem;
-            transition: transform 0.3s;
-            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
-        }
-        .bvns-character-card:hover .char-icon-display {
-            transform: scale(1.15);
-        }
-        .bvns-character-card .char-name-display {
+        .character-list-item .char-index {
+            font-family: 'Orbitron', monospace;
             font-weight: 900;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
+            color: #fbbf24;
+            width: 3rem;
+            text-shadow: 0 0 15px rgba(251, 191, 36, 0.6);
+        }
+        .character-list-item .char-name {
+            font-weight: 900;
+            font-size: 1.3rem;
             letter-spacing: 0.05em;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-            transition: all 0.3s;
+            flex: 1;
+            text-align: center;
         }
-        .bvns-character-card.selected .char-name-display {
+        .character-list-item.selected .char-name {
             color: #fbbf24 !important;
             text-shadow: 0 0 20px rgba(251, 191, 36, 0.8);
         }
-        .bvns-check-mark {
-            position: absolute;
-            top: 10px;
-            right: 12px;
-            width: 32px;
-            height: 32px;
-            background: #fbbf24;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.1rem;
-            font-weight: bold;
-            color: #000;
-            box-shadow: 0 0 20px rgba(251, 191, 36, 0.8);
+        .character-list-item .char-check {
+            font-size: 1.5rem;
             opacity: 0;
             transform: scale(0);
             transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-            z-index: 5;
+            color: #fbbf24;
         }
-        .bvns-character-card.selected .bvns-check-mark {
+        .character-list-item.selected .char-check {
             opacity: 1;
             transform: scale(1);
         }
@@ -427,9 +348,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 6px;
+            gap: 4px;
             z-index: 2;
             transition: all 0.3s;
+            pointer-events: none;
         }
         .dou-player-slot .player-avatar-ring {
             width: 56px;
@@ -444,6 +366,14 @@
             background: rgba(30, 30, 40, 0.9);
             transition: all 0.3s;
             position: relative;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        .dou-player-slot .player-avatar-ring img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
         .dou-player-slot.is-me .player-avatar-ring {
             border-color: #3b82f6 !important;
@@ -462,27 +392,28 @@
         }
         .dou-player-slot .move-display {
             position: absolute;
-            min-width: 60px;
-            padding: 6px 12px;
-            border-radius: 20px;
+            min-width: 55px;
+            padding: 6px 14px;
+            border-radius: 18px;
             font-weight: bold;
-            font-size: 0.85rem;
+            font-size: 1rem;
             text-align: center;
             white-space: nowrap;
             transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-            z-index: 3;
+            z-index: 10;
             pointer-events: none;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
         }
         .dou-player-slot .move-display.pop {
             animation: movePopIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
         @keyframes movePopIn {
             0% {
-                transform: scale(0);
+                transform: translate(-50%, -50%) scale(0);
                 opacity: 0;
             }
             100% {
-                transform: scale(1);
+                transform: translate(-50%, -50%) scale(1);
                 opacity: 1;
             }
         }
@@ -496,7 +427,6 @@
             pointer-events: auto;
         }
 
-        /* 伤害数字 */
         .damage-text {
             position: absolute;
             font-weight: bold;
@@ -517,7 +447,6 @@
             }
         }
 
-        /* 招式按钮 */
         .move-btn {
             transition: all 0.3s ease;
             position: relative;
@@ -572,7 +501,6 @@
             color: #6b7280;
             border-color: #6b7280;
         }
-
         .waiting-pulse {
             animation: waitingPulse 2s infinite;
         }
@@ -599,7 +527,6 @@
                 transform: scale(1);
             }
         }
-
         .skill-move-btn.selected {
             box-shadow: 0 0 20px rgba(168, 85, 247, 0.8);
             transform: scale(1.05);
@@ -609,7 +536,6 @@
             border: 1px solid rgba(168, 85, 247, 0.5);
             color: #a855f7;
         }
-
         .ready-badge {
             animation: readyPulse 2s ease-in-out infinite;
         }
@@ -636,6 +562,11 @@
                 box-shadow: 0 0 30px rgba(34, 197, 94, 0.8), 0 0 60px rgba(34, 197, 94, 0.5);
             }
         }
+        .result-move-name {
+            font-size: 1.3rem;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+        }
 
         @media (max-width: 768px) {
             .dou-player-slot .player-avatar-ring {
@@ -648,11 +579,21 @@
                 height: 46px;
                 font-size: 1.2rem;
             }
-            .bvns-character-card {
-                min-height: 120px;
+            .dou-player-slot .move-display {
+                font-size: 0.75rem;
+                padding: 4px 8px;
+                min-width: 36px;
+                border-radius: 14px;
             }
-            .bvns-character-card .char-icon-display {
-                font-size: 2.2rem;
+            .character-list-item .char-index {
+                font-size: 1.2rem;
+                width: 2.5rem;
+            }
+            .character-list-item .char-name {
+                font-size: 1.1rem;
+            }
+            .result-move-name {
+                font-size: 1rem;
             }
         }
     </style>
@@ -754,46 +695,45 @@
             </div>
         </div>
 
-        <!-- Screen 3: Character Select Panel (死神vs火影风格) -->
-        <div id="characterSelectPanel" class="hidden w-full max-w-5xl rounded-3xl p-6 md:p-8 bvns-select-bg neon-border" style="border:2px solid rgba(251,191,36,0.4);">
+        <!-- Screen 3: Character Select Panel (文字列表风格) -->
+        <div id="characterSelectPanel" class="hidden w-full max-w-2xl rounded-3xl p-6 md:p-8 bvns-select-bg neon-border" style="border:2px solid rgba(251,191,36,0.4);">
             <div class="relative z-10">
-                <div class="text-center mb-6">
+                <div class="text-center mb-8">
                     <h2 class="orbitron text-3xl md:text-5xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500" style="text-shadow:0 0 30px rgba(255,150,30,0.6);">
                         ⚔️ 选择你的角色 ⚔️
                     </h2>
-                    <div class="flex items-center justify-center gap-3 mt-3">
+                    <div class="flex items-center justify-center gap-3 mt-4">
                         <span class="text-gray-400 text-sm">剩余时间:</span>
                         <div id="characterSelectTimer" class="orbitron text-4xl md:text-5xl font-bold text-red-500" style="text-shadow:0 0 20px rgba(255,50,50,0.8);">30</div>
                         <span class="text-gray-400 text-sm">秒</span>
                     </div>
-                    <p class="text-gray-500 text-xs mt-1">时间结束将随机分配角色</p>
+                    <p class="text-gray-500 text-xs mt-2">时间结束将随机分配角色</p>
                 </div>
 
-                <!-- 角色选择网格 - 死神vs火影风格 -->
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 md:gap-5 mb-6" id="characterGrid">
+                <!-- 角色选择列表 -->
+                <div id="characterGrid" class="space-y-3 mb-8 max-w-md mx-auto">
                 </div>
 
                 <!-- 已选择显示 -->
                 <div class="text-center">
-                    <div id="selectedCharacterDisplay" class="hidden mb-5">
+                    <div id="selectedCharacterDisplay" class="hidden mb-6">
                         <p class="text-gray-400 mb-2 text-sm">你选择了:</p>
                         <div class="inline-flex items-center gap-3 px-6 py-3 rounded-2xl border-2 border-yellow-500/60" style="background:rgba(251,191,36,0.1);">
-                            <span id="selectedIcon" class="text-4xl"></span>
                             <span id="selectedName" class="text-2xl font-bold text-yellow-300"></span>
                         </div>
                     </div>
                     <button id="confirmCharacterBtn" onclick="confirmCharacterSelection()" disabled class="cyber-btn bg-gradient-to-r from-yellow-500 to-orange-600 text-white font-bold py-3 px-10 rounded-2xl text-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed border border-yellow-400/40" style="text-shadow:0 2px 4px rgba(0,0,0,0.5);">
                         🔒 确认选择
                     </button>
-                    <div id="waitingForOthers" class="hidden mt-4">
+                    <div id="waitingForOthers" class="hidden mt-5">
                         <div class="flex items-center justify-center gap-2 text-yellow-400"><span class="animate-spin">⏳</span><span>等待其他玩家选择...</span></div>
                     </div>
                 </div>
 
                 <!-- 其他玩家选择状态 -->
-                <div class="mt-6 glass-panel rounded-2xl p-4 border border-gray-700">
+                <div class="mt-8 glass-panel rounded-2xl p-4 border border-gray-700">
                     <h3 class="text-sm font-bold text-gray-300 mb-3 flex items-center gap-2"><span>👥 玩家选择状态</span><span id="characterSelectProgress" class="text-xs text-gray-500">0/0</span></h3>
-                    <div id="characterSelectStatus" class="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
+                    <div id="characterSelectStatus" class="grid grid-cols-2 md:grid-cols-3 gap-3"></div>
                 </div>
             </div>
         </div>
@@ -830,7 +770,6 @@
                     <!-- 玩家槽位由JS动态填充 -->
                     <!-- 中央区域 -->
                     <div class="dou-center-area" id="douCenterArea">
-                        <!-- 回合状态 -->
                         <div id="turnStatus" class="text-lg font-bold text-blue-400 mb-2">请选择招式</div>
 
                         <!-- 招式选择区 -->
@@ -896,21 +835,14 @@
             </div>
         </div>
 
-        <!-- Skill Modal -->
+        <!-- Skill Modal (简化版：给自己+1卷) -->
         <div id="skillModal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50">
-            <div class="glass-panel rounded-3xl p-6 max-w-lg w-full mx-4 neon-border border border-purple-500/50">
-                <h2 class="text-2xl font-bold mb-4 text-center text-white">🎯 使用技能：预判</h2>
-                <p class="text-gray-300 mb-4 text-center text-sm">预测目标本回合使用的招式。猜中则无效化其招式，猜错则扣除目标1点卷数</p>
-                <div class="mb-4"><p class="text-xs text-gray-400 mb-2 text-center">选择目标:</p><div id="skillTargets" class="flex flex-wrap gap-2 justify-center"></div></div>
-                <div id="skillMoveSelection" class="mb-4 hidden"><p class="text-xs text-gray-400 mb-2 text-center">预测招式:</p><div class="grid grid-cols-3 gap-2">
-                        <button onclick="selectSkillMove('juan')" class="skill-move-btn move-btn move-juan cyber-btn bg-gray-800/50 border-2 rounded-xl p-2 flex flex-col items-center gap-1"><span class="text-xl">📚</span><span class="text-xs font-bold">卷</span></button>
-                        <button onclick="selectSkillMove('fanjuan')" class="skill-move-btn move-btn move-fanjuan cyber-btn bg-gray-800/50 border-2 rounded-xl p-2 flex flex-col items-center gap-1"><span class="text-xl">🗡️</span><span class="text-xs font-bold">反卷</span></button>
-                        <button onclick="selectSkillMove('tangping')" class="skill-move-btn move-btn move-tangping cyber-btn bg-gray-800/50 border-2 rounded-xl p-2 flex flex-col items-center gap-1"><span class="text-xl">🛌</span><span class="text-xs font-bold">躺平</span></button>
-                        <button onclick="selectSkillMove('pofang')" class="skill-move-btn move-btn move-pofang cyber-btn bg-gray-800/50 border-2 rounded-xl p-2 flex flex-col items-center gap-1"><span class="text-xl">💥</span><span class="text-xs font-bold">破防</span></button>
-                        <button onclick="selectSkillMove('pengsha')" class="skill-move-btn move-btn move-pengsha cyber-btn bg-gray-800/50 border-2 rounded-xl p-2 flex flex-col items-center gap-1"><span class="text-xl">👏</span><span class="text-xs font-bold">捧杀</span></button>
-                        <button onclick="selectSkillMove('bailan')" class="skill-move-btn move-btn move-bailan cyber-btn bg-gray-800/50 border-2 rounded-xl p-2 flex flex-col items-center gap-1"><span class="text-xl">🗑️</span><span class="text-xs font-bold">摆烂</span></button>
-                </div></div>
-                <div class="flex gap-3 justify-center"><button onclick="confirmSkill()" id="confirmSkillBtn" disabled class="cyber-btn bg-gradient-to-r from-green-600 to-green-700 text-white font-bold py-2 px-6 rounded-xl border border-green-500/30 disabled:opacity-50 disabled:cursor-not-allowed">确认</button><button onclick="cancelSkill()" class="cyber-btn bg-gray-800 hover:bg-gray-700 text-gray-300 py-2 px-6 rounded-xl border border-gray-600">取消</button></div>
+            <div class="glass-panel rounded-3xl p-6 max-w-sm w-full mx-4 neon-border border border-purple-500/50 text-center">
+                <h2 class="text-2xl font-bold mb-4 text-white">🎯 使用技能</h2>
+                <div class="text-5xl mb-3">📚</div>
+                <p class="text-gray-300 mb-2 text-lg font-bold" id="skillModalName">技能名称</p>
+                <p class="text-gray-400 mb-6 text-sm" id="skillModalDesc">技能描述</p>
+                <div class="flex gap-3 justify-center"><button onclick="confirmSkill()" id="confirmSkillBtn" class="cyber-btn bg-gradient-to-r from-green-600 to-green-700 text-white font-bold py-2 px-6 rounded-xl border border-green-500/30">确认使用</button><button onclick="cancelSkill()" class="cyber-btn bg-gray-800 hover:bg-gray-700 text-gray-300 py-2 px-6 rounded-xl border border-gray-600">取消</button></div>
             </div>
         </div>
     </div>
@@ -950,17 +882,16 @@
                 bailan: { name: '摆烂', cost: 1, needTarget: false, icon: '🗑️', color: 'text-gray-400', bgColor: '#6b7280' }
             },
             CHARACTERS: {
-                juangou: { id: 'juangou', name: '卷狗', description: '最纯粹的卷王', color: 'from-blue-500 to-blue-700', icon: '🐕',
-                    maxHp: 4, skill: { name: '预判', description: '预判目标招式，猜中则无效化，猜错则扣1卷', maxUses: 1,
-                    used: false } },
-                dage: { id: 'dage', name: '大哥', description: '气场强大', color: 'from-purple-500 to-purple-700',
-                    icon: '😎', maxHp: 4, skill: null },
-                haozhu: { id: 'haozhu', name: '豪猪', description: '防御反击', color: 'from-orange-500 to-red-600',
-                    icon: '🦔', maxHp: 4, skill: null },
-                jerry: { id: 'jerry', name: 'Jerry', description: '灵活多变', color: 'from-green-500 to-teal-600',
-                    icon: '🐭', maxHp: 4, skill: null },
-                kuizhu: { id: 'kuizhu', name: '奎猪', description: '血量厚实', color: 'from-pink-500 to-rose-600',
-                    icon: '🐷', maxHp: 5, skill: null }
+                juangou: { id: 'juangou', name: '卷狗', color: 'from-blue-500 to-blue-700', icon: '🐕', maxHp: 4, skill: { name: '偷偷卷',
+                        description: '给自己增加1点卷数', maxUses: 1 } },
+                dage: { id: 'dage', name: '大哥', color: 'from-purple-500 to-purple-700', icon: '😎', maxHp: 4, skill: { name: '偷偷卷',
+                        description: '给自己增加1点卷数', maxUses: 1 } },
+                haozhu: { id: 'haozhu', name: '豪猪', color: 'from-orange-500 to-red-600', icon: '🦔', maxHp: 4, skill: { name: '偷偷卷',
+                        description: '给自己增加1点卷数', maxUses: 1 } },
+                jerry: { id: 'jerry', name: 'Jerry', color: 'from-green-500 to-teal-600', icon: '🐭', maxHp: 4, skill: { name: '偷偷卷',
+                        description: '给自己增加1点卷数', maxUses: 1 } },
+                kuizhu: { id: 'kuizhu', name: '奎猪', color: 'from-pink-500 to-rose-600', icon: '🐷', maxHp: 5, skill: { name: '偷偷卷',
+                        description: '给自己增加1点卷数', maxUses: 1 } }
             }
         };
 
@@ -981,8 +912,7 @@
             reconnectAttempts: 0,
             currentTarget: 'all',
             targetName: '所有人',
-            characterSelect: { selected: null, timeLeft: 30, timer: null, selections: new Map(),
-            confirmed: false },
+            characterSelect: { selected: null, timeLeft: 30, timer: null, selections: new Map(), confirmed: false },
             gameState: {
                 round: 1,
                 players: new Map(),
@@ -1032,22 +962,20 @@
 
         function broadcast(data, excludeId = null) {
             state.connections.forEach((connData, peerId) => {
-                if (peerId !== excludeId && connData.conn.open) { try { connData.conn.send(data); } catch (
-                e) {} }
+                if (peerId !== excludeId && connData.conn.open) { try { connData.conn.send(data); } catch (e) {} }
             });
         }
 
         function broadcastMemberList() {
             if (!state.isHost) return;
-            const members = Array.from(state.allMembers.values()).map(m => ({ id: m.id, name: m.id === state.myId ?
-                    m.name + ' (我)' : m.name, isOnline: m.isOnline, isHost: m.isHost }));
+            const members = Array.from(state.allMembers.values()).map(m => ({ id: m.id, name: m.id === state.myId ? m
+                    .name + ' (我)' : m.name, isOnline: m.isOnline, isHost: m.isHost }));
             broadcast({ type: 'members', list: members });
         }
 
         function broadcastReadyStatus() {
             if (!state.isHost) return;
-            const readyList = Array.from(state.allMembers.values()).map(m => ({ id: m.id, isReady: m.isReady ||
-                    false }));
+            const readyList = Array.from(state.allMembers.values()).map(m => ({ id: m.id, isReady: m.isReady || false }));
             broadcast({ type: 'ready-status', readyList });
         }
 
@@ -1057,8 +985,8 @@
             dot.className = 'status-dot';
             if (status === 'online') { dot.classList.add('status-online');
                 text.textContent = '在线';
-                text.className = 'text-sm font-medium text-green-400'; } else if (status === 'offline') { dot.classList
-                    .add('status-offline');
+                text.className = 'text-sm font-medium text-green-400'; } else if (status === 'offline') { dot.classList.add(
+                    'status-offline');
                 text.textContent = '离线';
                 text.className = 'text-sm font-medium text-red-400'; } else { dot.classList.add('status-connecting');
                 text.textContent = '连接中...';
@@ -1118,8 +1046,8 @@
                     config: { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }, { urls: 'stun:stun1.l.google.com:19302' }] }
                 });
                 state.peer.on('open', (id) => {
-                    if (isHost) { state.allMembers.set(state.myId, { id: state.myId, name: state.myName,
-                            isOnline: true, isHost: true, isReady: true });
+                    if (isHost) { state.allMembers.set(state.myId, { id: state.myId, name: state.myName, isOnline: true,
+                            isHost: true, isReady: true });
                         showHostPanel(); } else { connectToHost(targetRoom); }
                 });
                 state.peer.on('connection', (conn) => handleNewConnection(conn));
@@ -1130,15 +1058,14 @@
         }
 
         function handleNewConnection(conn) {
-            if (state.connections.size >= CONFIG.MAX_MEMBERS - 1 && !state.isHost) { conn.send({ type: 'system',
-                    msg: '房间已满' });
+            if (state.connections.size >= CONFIG.MAX_MEMBERS - 1 && !state.isHost) { conn.send({ type: 'system', msg: '房间已满' });
                 setTimeout(() => conn.close(), 1000); return; }
-            const connData = { conn, name: conn.metadata?.name || '未知用户', lastSeen: Date.now(),
-                lastMessageTime: Date.now(), isOnline: true, isReady: false };
+            const connData = { conn, name: conn.metadata?.name || '未知用户', lastSeen: Date.now(), lastMessageTime: Date.now(),
+                isOnline: true, isReady: false };
             state.connections.set(conn.peer, connData);
             conn.on('open', () => {
-                if (state.isHost) { state.allMembers.set(conn.peer, { id: conn.peer, name: connData.name,
-                        isOnline: true, isHost: false, isReady: false });
+                if (state.isHost) { state.allMembers.set(conn.peer, { id: conn.peer, name: connData.name, isOnline: true,
+                        isHost: false, isReady: false });
                     broadcastMemberList();
                     broadcastReadyStatus(); }
                 updateMemberList();
@@ -1151,8 +1078,8 @@
         }
 
         function connectToHost(roomId) {
-            const conn = state.peer.connect(roomId, { reliable: true, metadata: { name: state.myName,
-                    joinTime: Date.now() } });
+            const conn = state.peer.connect(roomId, { reliable: true, metadata: { name: state.myName, joinTime: Date
+                        .now() } });
             handleNewConnection(conn);
             conn.on('open', () => { conn.send({ type: 'join', name: state.myName, id: state.myId });
                 showChatPanel();
@@ -1163,14 +1090,13 @@
         function handleMessage(fromId, data) {
             const connData = state.connections.get(fromId);
             if (connData) { connData.lastSeen = Date.now();
-                connData.lastMessageTime = Date.now(); if (!connData.isOnline) { connData.isOnline = true; if (state
-                        .allMembers.has(fromId)) state.allMembers.get(fromId).isOnline = true;
+                connData.lastMessageTime = Date.now(); if (!connData.isOnline) { connData.isOnline = true; if (state.allMembers
+                        .has(fromId)) state.allMembers.get(fromId).isOnline = true;
                     addSystemMessage(`${connData.name} 重新上线`); } }
             switch (data.type) {
                 case 'join':
-                    if (connData && data.name) connData.name = data.name; if (!state.isHost) { state.allMembers.set(
-                            fromId, { id: fromId, name: data.name || '未知用户', isOnline: true, isHost: false,
-                            isReady: false }); }
+                    if (connData && data.name) connData.name = data.name; if (!state.isHost) { state.allMembers.set(fromId, { id: fromId,
+                            name: data.name || '未知用户', isOnline: true, isHost: false, isReady: false }); }
                     addSystemMessage(`${data.name} 加入了房间`); if (state.isHost) { broadcastMemberList();
                         broadcastReadyStatus(); } break;
                 case 'chat':
@@ -1179,9 +1105,9 @@
                 case 'private':
                     handlePrivateMessage(fromId, data); break;
                 case 'private-relay':
-                    if (state.isHost && data.targetId) { const tc = state.connections.get(data.targetId); if (tc && tc
-                            .conn.open) tc.conn.send({ type: 'private', msg: data.msg, id: data.id, from: data.from,
-                            fromId: data.fromId, to: data.targetId, relayed: true }); } break;
+                    if (state.isHost && data.targetId) { const tc = state.connections.get(data.targetId); if (tc && tc.conn
+                            .open) tc.conn.send({ type: 'private', msg: data.msg, id: data.id, from: data.from, fromId: data
+                                .fromId, to: data.targetId, relayed: true }); } break;
                 case 'typing':
                     showTyping(state.allMembers.get(fromId)?.name || state.connections.get(fromId)?.name || '有人'); break;
                 case 'members':
@@ -1210,21 +1136,21 @@
                 case 'ping':
                     if (connData) { connData.isOnline = true;
                         connData.lastSeen = Date.now();
-                        connData.lastMessageTime = Date.now(); if (state.allMembers.has(fromId)) state.allMembers.get(
-                            fromId).isOnline = true;
+                        connData.lastMessageTime = Date.now(); if (state.allMembers.has(fromId)) state.allMembers.get(fromId)
+                            .isOnline = true;
                         conn.send({ type: 'pong', time: data.time }); } break;
                 case 'pong':
                     if (connData) { connData.isOnline = true;
-                        connData.lastMessageTime = Date.now(); if (state.allMembers.has(fromId)) state.allMembers.get(
-                            fromId).isOnline = true; } break;
+                        connData.lastMessageTime = Date.now(); if (state.allMembers.has(fromId)) state.allMembers.get(fromId)
+                            .isOnline = true; } break;
                 case 'system':
                     addSystemMessage(data.msg); break;
                 case 'host-left':
                     addSystemMessage('房主已离开，房间即将关闭');
                     setTimeout(() => location.reload(), 3000); break;
                 case 'user-removed':
-                    if (!state.isHost && data.userId) { const m = state.allMembers.get(data.userId); if (m) {
-                            addSystemMessage(`${m.name} 被移出房间`);
+                    if (!state.isHost && data.userId) { const m = state.allMembers.get(data.userId); if (m) { addSystemMessage(
+                                `${m.name} 被移出房间`);
                             state.allMembers.delete(data.userId);
                             state.connections.delete(data.userId);
                             updateMemberList();
@@ -1244,21 +1170,23 @@
                 case 'skill-used':
                     const su = state.gameState.players.get(data.playerId); if (su) { su.skillUsed = true;
                         su.skillActive = true;
-                        su.skillPrediction = data.skillData;
-                        updateSkillButton(); } break;
+                        su.juan += 1;
+                        updateSkillButton();
+                        updateMyStatusDisplay();
+                        addGameChatMessage('系统', `${su.name} 使用了技能【偷偷卷】，卷数+1！`); } break;
             }
             updateMemberList();
         }
 
-        function relayMessage(data, fromId) { state.connections.forEach((cd, pid) => { if (pid !== fromId && cd.conn
-                .open) try { cd.conn.send(data); } catch (e) {} }); }
+        function relayMessage(data, fromId) { state.connections.forEach((cd, pid) => { if (pid !== fromId && cd.conn.open) try { cd
+                        .conn.send(data); } catch (e) {} }); }
 
         function handlePrivateMessage(fromId, data) {
             let sn = data.fromId && data.fromId !== fromId ? state.allMembers.get(data.fromId)?.name || data.from : state
                 .allMembers.get(fromId)?.name || state.connections.get(fromId)?.name || data.from || '未知用户';
             addChatMessage(sn, data.msg, false, data.id, true);
-            const fc = state.connections.get(fromId); if (fc && fc.conn.open) fc.conn.send({ type: 'private-receipt',
-                id: data.id, to: state.myId });
+            const fc = state.connections.get(fromId); if (fc && fc.conn.open) fc.conn.send({ type: 'private-receipt', id: data
+                    .id, to: state.myId });
         }
 
         // ==================== 准备状态 ====================
@@ -1291,9 +1219,9 @@
             updateStartGameButton(); if (state.isHost) broadcastReadyStatus();
         }
 
-        function updateReadyStatusFromHost(readyList) { readyList.forEach(item => { if (state.allMembers.has(item.id))
-                    state.allMembers.get(item.id).isReady = item.isReady; if (state.connections.has(item.id)) state
-                    .connections.get(item.id).isReady = item.isReady; });
+        function updateReadyStatusFromHost(readyList) { readyList.forEach(item => { if (state.allMembers.has(item.id)) state
+                    .allMembers.get(item.id).isReady = item.isReady; if (state.connections.has(item.id)) state.connections.get(
+                        item.id).isReady = item.isReady; });
             updateReadyStatusList();
             updateStartGameButton(); }
 
@@ -1322,8 +1250,7 @@
             const ar = np > 0 && rnp === np;
             btn.disabled = !ar; if (ar) { btn.classList.add('start-btn-ready');
                 hint.textContent = '所有玩家已准备，可以开始游戏！';
-                hint.className = 'block text-xs font-normal mt-1 text-green-300'; } else { btn.classList.remove(
-                    'start-btn-ready');
+                hint.className = 'block text-xs font-normal mt-1 text-green-300'; } else { btn.classList.remove('start-btn-ready');
                 hint.textContent = np === 0 ? '等待其他玩家加入...' : `等待准备: ${rnp}/${np}`;
                 hint.className = 'block text-xs font-normal mt-1 text-green-200'; }
         }
@@ -1347,10 +1274,10 @@
             document.getElementById('displayRoomCode').textContent = state.roomId;
             document.getElementById('connectionModeDisplay').textContent = navigator.onLine ? '在线模式' : '离线模式';
             document.getElementById('roomDisplay').textContent = state.roomId;
-            updateStatus('已连接', 'bg-green-500', false); if (state.isHost) { document.getElementById('hostControls')
-                .classList.remove('hidden');
-                document.getElementById('playerControls').classList.add('hidden'); } else { document.getElementById(
-                    'hostControls').classList.add('hidden');
+            updateStatus('已连接', 'bg-green-500', false); if (state.isHost) { document.getElementById('hostControls').classList
+                .remove('hidden');
+                document.getElementById('playerControls').classList.add('hidden'); } else { document.getElementById('hostControls')
+                .classList.add('hidden');
                 document.getElementById('playerControls').classList.remove('hidden'); }
             updateReadyStatusList();
             updateStartGameButton();
@@ -1379,23 +1306,21 @@
         }
 
         function updateMemberCount() { document.getElementById('memberCount').textContent =
-            `${state.allMembers.size}/${CONFIG.MAX_MEMBERS} 人在线`; }
+        `${state.allMembers.size}/${CONFIG.MAX_MEMBERS} 人在线`; }
 
         function updateStatus(text, colorClass, showRing) {
             document.getElementById('statusText2').textContent = text;
             const dot = document.getElementById('statusDot2');
             dot.className = `w-3 h-3 rounded-full ${colorClass}`;
             const ring = document.getElementById('statusRing'); if (showRing) { ring.classList.remove('hidden');
-                ring.className =
-                `absolute inset-0 rounded-full border-2 ${colorClass.replace('bg-','border-')} pulse-ring`; } else ring
-                .classList.add('hidden');
+                ring.className = `absolute inset-0 rounded-full border-2 ${colorClass.replace('bg-','border-')} pulse-ring`; } else
+                ring.classList.add('hidden');
         }
 
         function enableInput(enable) {
             const ia = document.getElementById('inputArea'),
                 inp = document.getElementById('msgInput'),
-                btn = document.getElementById('sendBtn'); if (enable) { ia.classList.remove('opacity-50',
-                    'pointer-events-none');
+                btn = document.getElementById('sendBtn'); if (enable) { ia.classList.remove('opacity-50', 'pointer-events-none');
                 inp.disabled = false;
                 btn.disabled = false; } else { ia.classList.add('opacity-50', 'pointer-events-none');
                 inp.disabled = true;
@@ -1405,13 +1330,12 @@
         function updateAllMembersFromHost(list) {
             const om = new Map(state.allMembers);
             state.allMembers.clear();
-            state.allMembers.set(state.myId, { id: state.myId, name: state.myName, isOnline: true, isHost: false,
-                isReady: state.isReady });
-            list.forEach(m => { if (m.id !== state.myId) { state.allMembers.set(m.id, { id: m.id, name: m.name.replace(
-                            ' (我)', ''), isOnline: m.isOnline, isHost: m.isHost || false, isReady: false }); if (!om
-                        .has(m.id) && !m.isHost) addSystemMessage(`${m.name.replace(' (我)','')} 已在房间中`); } });
-            state.allMembers.forEach((m, id) => { if (state.connections.has(id)) state.connections.get(id).name = m
-                .name; });
+            state.allMembers.set(state.myId, { id: state.myId, name: state.myName, isOnline: true, isHost: false, isReady: state
+                    .isReady });
+            list.forEach(m => { if (m.id !== state.myId) { state.allMembers.set(m.id, { id: m.id, name: m.name.replace(' (我)',
+                            ''), isOnline: m.isOnline, isHost: m.isHost || false, isReady: false }); if (!om.has(m.id) && !m
+                        .isHost) addSystemMessage(`${m.name.replace(' (我)','')} 已在房间中`); } });
+            state.allMembers.forEach((m, id) => { if (state.connections.has(id)) state.connections.get(id).name = m.name; });
             updateMemberList();
             updatePrivateTargets();
             updateReadyStatusList();
@@ -1420,24 +1344,21 @@
         // ==================== 目标选择 ====================
         function selectTarget(targetId) {
             state.currentTarget = targetId;
-            document.querySelectorAll('#privateTargets button, #targetAll').forEach(btn => { btn.classList.remove(
-                    'active');
+            document.querySelectorAll('#privateTargets button, #targetAll').forEach(btn => { btn.classList.remove('active');
                 btn.classList.add('target-btn');
                 btn.style.background = '';
                 btn.style.color = '';
                 btn.style.borderColor = ''; });
-            const sb = targetId === 'all' ? document.getElementById('targetAll') : document.getElementById(
-            `target-${targetId}`); if (sb) sb.classList.add('active'); if (targetId === 'all') { state.targetName =
-                '所有人';
+            const sb = targetId === 'all' ? document.getElementById('targetAll') : document.getElementById(`target-${targetId}`); if (
+                sb) sb.classList.add('active'); if (targetId === 'all') { state.targetName = '所有人';
                 document.getElementById('currentTargetLabel').textContent = '公开消息 - 所有人可见';
                 document.getElementById('currentTargetLabel').className =
-                'text-xs text-blue-400 font-medium ml-auto uppercase tracking-wider'; } else { const m = state.allMembers
-                .get(targetId);
+                    'text-xs text-blue-400 font-medium ml-auto uppercase tracking-wider'; } else { const m = state.allMembers.get(
+                    targetId);
                 state.targetName = m?.name || '未知';
-                document.getElementById('currentTargetLabel').textContent =
-                `🔒 私聊模式 - 仅 ${state.targetName} 可见`;
+                document.getElementById('currentTargetLabel').textContent = `🔒 私聊模式 - 仅 ${state.targetName} 可见`;
                 document.getElementById('currentTargetLabel').className =
-                'text-xs text-pink-400 font-medium ml-auto uppercase tracking-wider'; }
+                    'text-xs text-pink-400 font-medium ml-auto uppercase tracking-wider'; }
             updateMemberSelection();
         }
 
@@ -1454,8 +1375,8 @@
                 container.appendChild(btn); });
         }
 
-        function updateMemberSelection() { document.querySelectorAll('#memberList > div').forEach(el => el.classList
-                .remove('member-selected')); if (state.currentTarget !== 'all') { const se = document.getElementById(
+        function updateMemberSelection() { document.querySelectorAll('#memberList > div').forEach(el => el.classList.remove(
+                'member-selected')); if (state.currentTarget !== 'all') { const se = document.getElementById(
                     `member-${state.currentTarget}`); if (se) se.classList.add('member-selected'); } }
 
         // ==================== 聊天 ====================
@@ -1465,15 +1386,14 @@
             const msgId = Date.now() + '_' + state.myId,
                 isPrivate = state.currentTarget !== 'all'; if (isPrivate) { const tid = state.currentTarget,
                     tm = state.allMembers.get(tid); if (!tm || !tm.isOnline) { addSystemMessage(
-                    `${state.targetName} 已离线，无法发送私聊`); return; }
-                const dc = state.connections.get(tid); if (dc && dc.conn.open) { dc.conn.send({ type: 'private',
-                        msg: text, id: msgId, from: state.myName, fromId: state.myId, to: tid }); } else if (!state
-                    .isHost) { const hc = state.connections.get(state.roomId); if (hc && hc.conn.open) hc.conn.send(
-                        { type: 'private-relay', targetId: tid, msg: text, id: msgId, from: state.myName,
-                            fromId: state.myId }); else { addSystemMessage('无法连接到房主，私聊发送失败'); return; } } else {
-                    addSystemMessage('无法连接到该用户'); return; }
-                addChatMessage(`我 → ${state.targetName}`, text, true, msgId, true); } else { const md = { type: 'chat',
-                    msg: text, id: msgId, from: state.myName, fromId: state.myId };
+                        `${state.targetName} 已离线，无法发送私聊`); return; }
+                const dc = state.connections.get(tid); if (dc && dc.conn.open) { dc.conn.send({ type: 'private', msg: text,
+                        id: msgId, from: state.myName, fromId: state.myId, to: tid }); } else if (!state.isHost) { const hc = state
+                        .connections.get(state.roomId); if (hc && hc.conn.open) hc.conn.send({ type: 'private-relay',
+                        targetId: tid, msg: text, id: msgId, from: state.myName, fromId: state.myId }); else { addSystemMessage(
+                            '无法连接到房主，私聊发送失败'); return; } } else { addSystemMessage('无法连接到该用户'); return; }
+                addChatMessage(`我 → ${state.targetName}`, text, true, msgId, true); } else { const md = { type: 'chat', msg: text,
+                    id: msgId, from: state.myName, fromId: state.myId };
                 broadcast(md);
                 addChatMessage('我', text, true, msgId, false); }
             input.value = '';
@@ -1482,8 +1402,8 @@
 
         function addChatMessage(sender, text, isMe, msgId, isPrivate) {
             const container = document.getElementById('messages'); if (state.messageHistory.includes(msgId)) return;
-            state.messageHistory.push(msgId); if (container.children.length === 1 && container.children[0].textContent
-                .includes('欢迎')) container.innerHTML = '';
+            state.messageHistory.push(msgId); if (container.children.length === 1 && container.children[0].textContent.includes(
+                    '欢迎')) container.innerHTML = '';
             const div = document.createElement('div');
             div.className = isMe ? 'flex justify-end fade-in' : 'flex justify-start fade-in';
             const time = new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
@@ -1498,8 +1418,7 @@
         function addSystemMessage(text) { const container = document.getElementById('messages'),
                 div = document.createElement('div');
             div.className = 'flex justify-center fade-in my-2';
-            div.innerHTML =
-            `<div class="msg-system px-4 py-2 border border-yellow-500/30">${escapeHtml(text)}</div>`;
+            div.innerHTML = `<div class="msg-system px-4 py-2 border border-yellow-500/30">${escapeHtml(text)}</div>`;
             container.appendChild(div);
             container.scrollTop = container.scrollHeight; }
 
@@ -1517,15 +1436,16 @@
         function startHeartbeat() { if (state.heartbeatTimer) clearInterval(state.heartbeatTimer);
             state.heartbeatTimer = setInterval(() => { broadcast({ type: 'ping', time: Date.now() });
                 const now = Date.now();
-                let hc = false; const utr = [];
-                state.connections.forEach((cd, id) => { const ts = now - cd.lastMessageTime; if (ts > CONFIG
-                        .OFFLINE_TIMEOUT && cd.isOnline) { cd.isOnline = false; if (state.allMembers.has(id))
-                            state.allMembers.get(id).isOnline = false;
+                let hc = false;
+                const utr = [];
+                state.connections.forEach((cd, id) => { const ts = now - cd.lastMessageTime; if (ts > CONFIG.OFFLINE_TIMEOUT &&
+                        cd.isOnline) { cd.isOnline = false; if (state.allMembers.has(id)) state.allMembers.get(id).isOnline =
+                            false;
                         hc = true;
-                        addSystemMessage(`${cd.name} 已离线（${Math.floor(ts/60000)}分钟无活动）`); if (state.isHost)
-                            utr.push(id); if (state.currentTarget === id) { selectTarget('all');
-                            addSystemMessage('私聊对象已离线，已切换至公开模式'); } } }); if (state.isHost && utr.length > 0)
-                    utr.forEach(uid => removeUserCompletely(uid)); if (hc) { updateMemberList();
+                        addSystemMessage(`${cd.name} 已离线（${Math.floor(ts/60000)}分钟无活动）`); if (state.isHost) utr.push(id); if (
+                            state.currentTarget === id) { selectTarget('all');
+                            addSystemMessage('私聊对象已离线，已切换至公开模式'); } } }); if (state.isHost && utr.length > 0) utr.forEach(
+                        uid => removeUserCompletely(uid)); if (hc) { updateMemberList();
                     updatePrivateTargets(); if (state.isHost) broadcastMemberList(); } }, CONFIG.HEARTBEAT_INTERVAL); }
 
         function removeUserCompletely(userId) { const cd = state.connections.get(userId),
@@ -1538,11 +1458,10 @@
             broadcast({ type: 'user-removed', userId, userName: un });
             addSystemMessage(`${un} 因长时间无活动被自动移出房间`); }
 
-        function handleDisconnect(peerId) { const cd = state.connections.get(peerId); if (cd) { cd.isOnline = false; if (
-                    state.allMembers.has(peerId)) state.allMembers.get(peerId).isOnline = false;
+        function handleDisconnect(peerId) { const cd = state.connections.get(peerId); if (cd) { cd.isOnline = false; if (state
+                    .allMembers.has(peerId)) state.allMembers.get(peerId).isOnline = false;
                 addSystemMessage(`${cd.name} 断开了连接`); if (state.currentTarget === peerId) { selectTarget('all');
-                    addSystemMessage('私聊对象已离开，已切换至公开模式'); } if (state.isHost) { state.connections.delete(
-                    peerId);
+                    addSystemMessage('私聊对象已离开，已切换至公开模式'); } if (state.isHost) { state.connections.delete(peerId);
                     state.allMembers.delete(peerId);
                     addSystemMessage(`${cd.name} 已离开房间`); }
                 updateMemberList();
@@ -1552,11 +1471,9 @@
                     broadcastReadyStatus(); } } }
 
         function kickMember(peerId) { if (!state.isHost) return;
-            const m = state.allMembers.get(peerId); if (!m) return; if (confirm(`确定要踢出 ${m.name} 吗？`)) { const cd = state
-                    .connections.get(peerId); if (cd && cd.conn.open) cd.conn.send({ type: 'system',
-                        msg: '你已被房主踢出房间' });
-                setTimeout(() => { removeUserCompletely(peerId); if (state.currentTarget === peerId) selectTarget(
-                    'all');
+            const m = state.allMembers.get(peerId); if (!m) return; if (confirm(`确定要踢出 ${m.name} 吗？`)) { const cd = state.connections
+                    .get(peerId); if (cd && cd.conn.open) cd.conn.send({ type: 'system', msg: '你已被房主踢出房间' });
+                setTimeout(() => { removeUserCompletely(peerId); if (state.currentTarget === peerId) selectTarget('all');
                     updateMemberList();
                     updatePrivateTargets();
                     updateReadyStatusList();
@@ -1568,63 +1485,59 @@
 
         function showInvite() { document.getElementById('modalRoomCode').textContent = state.roomId;
             document.getElementById('inviteModal').classList.remove('hidden');
-            gsap.fromTo('#inviteModal > div', { opacity: 0, scale: 0.9, y: 20 }, { opacity: 1, scale: 1, y: 0,
-                duration: 0.3, ease: "back.out(1.7)" }); }
+            gsap.fromTo('#inviteModal > div', { opacity: 0, scale: 0.9, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.3,
+                ease: "back.out(1.7)" }); }
 
         function closeInvite() { document.getElementById('inviteModal').classList.add('hidden'); }
 
-        function copyInvite() { navigator.clipboard.writeText(`快来加入我的卷王争霸房间！房间代码：${state.roomId}`).then(() => {
-                showToast('邀请信息已复制！');
+        function copyInvite() { navigator.clipboard.writeText(`快来加入我的卷王争霸房间！房间代码：${state.roomId}`).then(() => { showToast(
+                    '邀请信息已复制！');
                 closeInvite(); }); }
 
         function cancelRoom() { if (confirm('确定要关闭房间吗？所有成员将被断开。')) leaveRoom(); }
 
         function leaveRoom() { if (state.isHost) broadcast({ type: 'host-left' });
-            state.connections.forEach(cd => { try { cd.conn.close(); } catch (e) {} }); if (state.peer) state.peer
-                .destroy(); if (state.heartbeatTimer) clearInterval(state.heartbeatTimer);
+            state.connections.forEach(cd => { try { cd.conn.close(); } catch (e) {} }); if (state.peer) state.peer.destroy(); if (
+                state.heartbeatTimer) clearInterval(state.heartbeatTimer);
             location.reload(); }
 
-        function handleError(err) { if (err.type === 'peer-unavailable') showToast('房间不存在或房主已离线', '❌'); else if (err
-                .type === 'network') showToast('网络错误，请检查连接', '❌');
+        function handleError(err) { if (err.type === 'peer-unavailable') showToast('房间不存在或房主已离线', '❌'); else if (err.type ===
+                'network') showToast('网络错误，请检查连接', '❌');
             else showToast('错误：' + err.message, '❌'); }
 
-        // ==================== 死神vs火影风格 - 角色选择 ====================
+        // ==================== 角色选择（文字列表模式 - 无icon） ====================
         function renderCharacterGrid() {
             const grid = document.getElementById('characterGrid');
             grid.innerHTML = '';
-            Object.values(CONFIG.CHARACTERS).forEach(char => {
-                const card = document.createElement('div');
-                card.id = `char-card-${char.id}`;
-                card.className = 'bvns-character-card p-4';
-                card.onclick = () => selectCharacter(char.id);
-                card.innerHTML = `
-                    <div class="card-glow"></div>
-                    <div class="bvns-check-mark">✓</div>
-                    <div class="char-icon-display">${char.icon || '👤'}</div>
-                    <div class="char-name-display text-white">${char.name}</div>
-                    <div class="text-xs text-white/60 text-center">${char.description}</div>
-                    <div class="mt-1 px-3 py-0.5 rounded-full bg-black/40 text-xs border border-white/20">❤️ ${char.maxHp} 血量</div>
-                    ${char.skill?`<div class="mt-1 px-3 py-0.5 rounded-full bg-yellow-500/20 text-yellow-400 text-xs border border-yellow-500/30">🎯 ${char.skill.name}</div>`:''}
+            const chars = Object.values(CONFIG.CHARACTERS);
+            chars.forEach((char, index) => {
+                const seq = index + 1;
+                const item = document.createElement('div');
+                item.id = `char-card-${char.id}`;
+                item.className = 'character-list-item';
+                item.onclick = () => selectCharacter(char.id);
+                item.innerHTML = `
+                    <span class="char-index">${seq}</span>
+                    <span class="char-name text-white">${char.name}</span>
+                    <span class="char-check">✓</span>
                 `;
-                grid.appendChild(card);
+                grid.appendChild(item);
             });
         }
 
         function selectCharacter(charId) { if (state.characterSelect.confirmed) return;
-            document.querySelectorAll('.bvns-character-card').forEach(c => c.classList.remove('selected'));
+            document.querySelectorAll('.character-list-item').forEach(c => c.classList.remove('selected'));
             document.getElementById(`char-card-${charId}`).classList.add('selected');
             state.characterSelect.selected = charId;
             const char = CONFIG.CHARACTERS[charId];
             document.getElementById('selectedCharacterDisplay').classList.remove('hidden');
-            document.getElementById('selectedIcon').textContent = char.icon || '👤';
             document.getElementById('selectedName').textContent = char.name;
             document.getElementById('confirmCharacterBtn').disabled = false;
             playNotification(); }
 
-        function confirmCharacterSelection() { if (!state.characterSelect.selected || state.characterSelect.confirmed)
-                return;
+        function confirmCharacterSelection() { if (!state.characterSelect.selected || state.characterSelect.confirmed) return;
             state.characterSelect.confirmed = true;
-            document.querySelectorAll('.bvns-character-card').forEach(c => { c.style.pointerEvents = 'none';
+            document.querySelectorAll('.character-list-item').forEach(c => { c.style.pointerEvents = 'none';
                 c.style.opacity = '0.5'; });
             document.getElementById(`char-card-${state.characterSelect.selected}`).style.opacity = '1';
             document.getElementById('confirmCharacterBtn').classList.add('hidden');
@@ -1638,8 +1551,8 @@
             updateTimerDisplay();
             state.characterSelect.timer = setInterval(() => { state.characterSelect.timeLeft--;
                 updateTimerDisplay(); if (state.isHost && state.characterSelect.timeLeft % 5 === 0) broadcast({ type:
-                        'character-select-sync', timeLeft: state.characterSelect.timeLeft }); if (state
-                    .characterSelect.timeLeft <= 0) { clearInterval(state.characterSelect.timer);
+                        'character-select-sync', timeLeft: state.characterSelect.timeLeft }); if (state.characterSelect
+                    .timeLeft <= 0) { clearInterval(state.characterSelect.timer);
                     handleCharacterSelectTimeout(); } }, 1000);
         }
 
@@ -1656,10 +1569,10 @@
 
         function autoAssignRandomCharacters() { const cids = Object.keys(CONFIG.CHARACTERS);
             state.allMembers.forEach((m, id) => { if (!state.characterSelect.selections.has(id) && m.isOnline) { const rc =
-                        cids[Math.floor(Math.random() * cids.length)];
-                    state.characterSelect.selections.set(id, rc); if (id !== state.myId) { const cd = state.connections
-                            .get(id); if (cd && cd.conn.open) cd.conn.send({ type: 'character-auto-assigned',
-                            characterId: rc }); } } }); }
+                    cids[Math.floor(Math.random() * cids.length)];
+                    state.characterSelect.selections.set(id, rc); if (id !== state.myId) { const cd = state.connections.get(
+                            id); if (cd && cd.conn.open) cd.conn.send({ type: 'character-auto-assigned',
+                        characterId: rc }); } } }); }
 
         function updateCharacterSelectStatus() { const container = document.getElementById('characterSelectStatus'),
                 pe = document.getElementById('characterSelectProgress');
@@ -1672,15 +1585,14 @@
                     cid = state.characterSelect.selections.get(id),
                     char = cid ? CONFIG.CHARACTERS[cid] : null; if (isSel) sc++;
                 html +=
-                    `<div class="flex items-center gap-2 p-2 rounded-xl ${isSel?'bg-green-500/20 border border-green-500/30':'bg-gray-800/50 border border-gray-700'}"><div class="w-8 h-8 rounded-full bg-gradient-to-br ${id===state.myId?'from-blue-500 to-blue-700':'from-gray-600 to-gray-800'} flex items-center justify-center text-sm">${char?char.icon:'?'}</div><div class="flex-1 min-w-0"><div class="text-xs font-medium ${id===state.myId?'text-blue-400':'text-white'} truncate">${m.name}${id===state.myId?' (我)':''}</div><div class="text-xs ${isSel?'text-green-400':'text-yellow-400'}">${isSel?`✓ ${char.name}`:'选择中...'}</div></div></div>`; });
+                    `<div class="flex items-center gap-2 p-2 rounded-xl ${isSel?'bg-green-500/20 border border-green-500/30':'bg-gray-800/50 border border-gray-700'}"><div class="flex-1 min-w-0"><div class="text-xs font-medium ${id===state.myId?'text-blue-400':'text-white'} truncate">${m.name}${id===state.myId?' (我)':''}</div><div class="text-xs ${isSel?'text-green-400':'text-yellow-400'}">${isSel?`✓ ${char.name}`:'选择中...'}</div></div></div>`; });
             container.innerHTML = html || '<div class="text-gray-500 col-span-full text-center">暂无玩家</div>';
             pe.textContent = `${sc}/${tc}`; }
 
-        function checkAllCharactersSelected() { const om = Array.from(state.allMembers.values()).filter(m => m.isOnline);
-            if (om.every(m => state.characterSelect.selections.has(m.id))) { if (state.characterSelect.timer)
-                    clearInterval(state.characterSelect.timer);
-                broadcast({ type: 'character-select-end', selections: Array.from(state.characterSelect.selections
-                        .entries()) });
+        function checkAllCharactersSelected() { const om = Array.from(state.allMembers.values()).filter(m => m.isOnline); if (om
+                .every(m => state.characterSelect.selections.has(m.id))) { if (state.characterSelect.timer) clearInterval(state
+                    .characterSelect.timer);
+                broadcast({ type: 'character-select-end', selections: Array.from(state.characterSelect.selections.entries()) });
                 setTimeout(() => enterGameRoomWithCharacters(), 2000); } }
 
         function handleCharacterSelectMessage(fromId, data) {
@@ -1692,8 +1604,7 @@
                 case 'character-selected':
                     state.characterSelect.selections.set(data.playerId, data.characterId);
                     updateCharacterSelectStatus();
-                    addSystemMessage(
-                        `${data.playerName} 选择了 ${CONFIG.CHARACTERS[data.characterId].icon} ${CONFIG.CHARACTERS[data.characterId].name}`);
+                    addSystemMessage(`${data.playerName} 选择了 ${CONFIG.CHARACTERS[data.characterId].name}`);
                     if (state.isHost) checkAllCharactersSelected(); break;
                 case 'character-select-sync':
                     if (!state.isHost) { state.characterSelect.timeLeft = data.timeLeft;
@@ -1705,8 +1616,8 @@
                         document.getElementById('waitingForOthers').classList.remove('hidden');
                         showToast(`时间到！自动为你选择了 ${CONFIG.CHARACTERS[data.characterId].name}`, '⏰'); } break;
                 case 'character-select-end':
-                    if (!state.isHost) { data.selections.forEach(([pid, cid]) => state.characterSelect.selections.set(
-                            pid, cid));
+                    if (!state.isHost) { data.selections.forEach(([pid, cid]) => state.characterSelect.selections.set(pid,
+                            cid));
                         updateCharacterSelectStatus();
                         setTimeout(() => enterGameRoomWithCharacters(), 1000); } break;
             }
@@ -1716,8 +1627,8 @@
         function startGame() { if (!state.isHost) return;
             startCharacterSelection(); }
 
-        function startCharacterSelection() { state.characterSelect = { selected: null, timeLeft: CONFIG
-                    .CHARACTER_SELECT_TIME, timer: null, selections: new Map(), confirmed: false };
+        function startCharacterSelection() { state.characterSelect = { selected: null, timeLeft: CONFIG.CHARACTER_SELECT_TIME,
+                timer: null, selections: new Map(), confirmed: false };
             document.getElementById('chatPanel').classList.add('hidden');
             document.getElementById('characterSelectPanel').classList.remove('hidden');
             renderCharacterGrid();
@@ -1731,27 +1642,25 @@
 
         function enterGameRoomWithCharacters() { state.gameState.round = 1;
             state.gameState.players.clear();
-            state.allMembers.forEach((m, id) => { if (m.isOnline) { const cid = state.characterSelect.selections.get(
-                        id),
+            state.allMembers.forEach((m, id) => { if (m.isOnline) { const cid = state.characterSelect.selections.get(id),
                         char = CONFIG.CHARACTERS[cid] || CONFIG.CHARACTERS.juangou;
-                    state.gameState.players.set(id, { id, name: m.name, character: char, hp: char.maxHp, maxHp: char
-                            .maxHp, juan: 0, move: null, target: null, isAlive: true, isReady: false,
-                        skillUses: char.skill ? char.skill.maxUses : 0, skillUsed: false, skillPrediction: null,
-                        skillActive: false, moveInvalidated: false }); } });
-            broadcast({ type: 'game-start-with-characters', gameState: { round: 1, players: Array.from(state.gameState
-                    .players.values()).map(p => ({ id: p.id, name: p.name, characterId: p.character.id, hp: p.hp,
-                        maxHp: p.maxHp, juan: p.juan, isAlive: p.isAlive, skillUses: p.skillUses, skillUsed: p
-                        .skillUsed })) } });
+                    state.gameState.players.set(id, { id, name: m.name, character: char, hp: char.maxHp, maxHp: char.maxHp,
+                        juan: 0, move: null, target: null, isAlive: true, isReady: false, skillUses: char.skill ? char.skill
+                        .maxUses : 0, skillUsed: false, skillPrediction: null, skillActive: false,
+                    moveInvalidated: false }); } });
+            broadcast({ type: 'game-start-with-characters', gameState: { round: 1, players: Array.from(state.gameState.players
+                    .values()).map(p => ({ id: p.id, name: p.name, characterId: p.character.id, hp: p.hp, maxHp: p.maxHp,
+                        juan: p.juan, isAlive: p.isAlive, skillUses: p.skillUses, skillUsed: p.skillUsed })) } });
             document.getElementById('characterSelectPanel').classList.add('hidden');
             enterGameRoom(); }
 
         function handleGameStartWithCharacters(data) { state.gameState.round = data.gameState.round;
             state.gameState.players.clear();
             data.gameState.players.forEach(p => { const char = CONFIG.CHARACTERS[p.characterId];
-                state.gameState.players.set(p.id, { id: p.id, name: p.name, character: char, hp: p.hp, maxHp: p.maxHp,
-                    juan: p.juan, isAlive: p.isAlive, move: null, target: null, isReady: false, skillUses: p
-                    .skillUses || (char.skill ? char.skill.maxUses : 0), skillUsed: p.skillUsed || false,
-                    skillPrediction: null, skillActive: false, moveInvalidated: false }); });
+                state.gameState.players.set(p.id, { id: p.id, name: p.name, character: char, hp: p.hp, maxHp: p.maxHp, juan: p
+                        .juan, isAlive: p.isAlive, move: null, target: null, isReady: false, skillUses: p.skillUses || (char
+                        .skill ? char.skill.maxUses : 0), skillUsed: p.skillUsed || false, skillPrediction: null,
+                    skillActive: false, moveInvalidated: false }); });
             state.gameStarted = true;
             addSystemMessage('🎮 游戏开始！卷王争霸，胜者为王！');
             document.getElementById('characterSelectPanel').classList.add('hidden');
@@ -1767,76 +1676,84 @@
             addGameChatMessage('系统', '🎮 第1回合开始！请选择你的招式...');
             startRound(); }
 
-        // ==================== 斗地主风格 - 玩家位置布局 ====================
+        // ==================== 圆形布局 - 玩家位置 ====================
         function layoutPlayerSlots() {
             const table = document.getElementById('douGameTable');
-            // 清除旧槽位
             table.querySelectorAll('.dou-player-slot').forEach(el => el.remove());
-            const players = Array.from(state.gameState.players.values());
-            const alivePlayers = players.filter(p => p.isAlive);
-            const allPlayers = players;
+            const allPlayers = Array.from(state.gameState.players.values());
             const total = allPlayers.length;
             if (total === 0) return;
+
             const tableRect = table.getBoundingClientRect();
             const tw = tableRect.width || 800;
             const th = tableRect.height || 500;
             const cx = tw / 2;
             const cy = th / 2;
-            const positions = [];
 
-            // 根据总人数计算环形位置
-            allPlayers.forEach((player, index) => {
-                const isMe = player.id === state.myId;
-                let x, y;
-                if (total <= 4) {
-                    // 上1-2人，下自己，左右各0-1人
-                    const topCount = Math.min(total - 1, 2);
-                    const sideCount = total - 1 - topCount;
-                    if (isMe) { x = cx;
-                        y = th - 80; } else if (index < topCount) { x = cx + (index - (topCount - 1) / 2) * 180;
-                        y = 60; } else { x = index % 2 === 0 ? 80 : tw - 80;
-                        y = cy; }
-                } else if (total <= 6) {
-                    const topCount = Math.min(total - 1, 3);
-                    if (isMe) { x = cx;
-                        y = th - 80; } else if (index < topCount) { x = cx + (index - (topCount - 1) / 2) * 150;
-                        y = 55; } else { x = index % 2 === 0 ? 70 : tw - 70;
-                        y = cy + (index - topCount) * 40 - 20; }
-                } else {
-                    const topCount = Math.min(total - 1, 4);
-                    if (isMe) { x = cx;
-                        y = th - 70; } else if (index < topCount) { x = cx + (index - (topCount - 1) / 2) * 130;
-                        y = 50; } else { const si = index - topCount;
-                        x = si % 2 === 0 ? 65 : tw - 65;
-                        y = cy + Math.floor(si / 2) * 50 - 15; }
+            // 半径取桌子短边的35%
+            const radius = Math.min(tw, th) * 0.38;
+
+            // 排序玩家：房主放在第一位（6点钟方向），其他按allMembers顺序
+            const orderedPlayers = [];
+            const hostId = state.isHost ? state.myId : (Array.from(state.allMembers.values()).find(m => m.isHost)?.id ||
+                state.myId);
+
+            // 先加房主
+            const hostPlayer = allPlayers.find(p => p.id === hostId);
+            if (hostPlayer) orderedPlayers.push(hostPlayer);
+
+            // 其他玩家按allMembers顺序（即加入顺序）
+            state.allMembers.forEach((m, id) => {
+                if (id !== hostId) {
+                    const p = allPlayers.find(pl => pl.id === id);
+                    if (p && !orderedPlayers.includes(p)) orderedPlayers.push(p);
                 }
-                positions.push({ player, x, y, isMe });
             });
+            // 确保所有玩家都包含
+            allPlayers.forEach(p => { if (!orderedPlayers.includes(p)) orderedPlayers.push(p); });
 
-            // 创建槽位
-            positions.forEach(pos => {
+            const n = orderedPlayers.length;
+            // 房主在6点钟方向 (角度π/2)，逆时针排列（角度减小）
+            const startAngle = Math.PI / 2; // 90度 = 6点钟方向
+
+            orderedPlayers.forEach((player, index) => {
+                const isMe = player.id === state.myId;
+                // 第i个玩家的角度：从startAngle逆时针转 index * (2π/n)
+                const angle = startAngle - index * (2 * Math.PI / n);
+                const x = cx + radius * Math.cos(angle);
+                const y = cy + radius * Math.sin(angle);
+
+                // 计算从玩家位置指向圆心的方向向量（用于招式显示偏移）
+                const dirX = cx - x;
+                const dirY = cy - y;
+                const dist = Math.sqrt(dirX * dirX + dirY * dirY) || 1;
+                const ndx = dirX / dist;
+                const ndy = dirY / dist;
+                // 招式偏移距离：头像半径 + 招式一半高度 + 间距
+                const moveOffset = 42;
+
                 const slot = document.createElement('div');
-                slot.className =
-                    `dou-player-slot ${pos.isMe?'is-me':''} ${pos.player.isAlive?'is-alive':'is-dead'}`;
-                slot.id = `player-slot-${pos.player.id}`;
-                slot.style.left = pos.x + 'px';
-                slot.style.top = pos.y + 'px';
+                slot.className = `dou-player-slot ${isMe?'is-me':''} ${player.isAlive?'is-alive':'is-dead'}`;
+                slot.id = `player-slot-${player.id}`;
+                slot.style.left = x + 'px';
+                slot.style.top = y + 'px';
                 slot.style.transform = 'translate(-50%, -50%)';
-                const char = pos.player.character || CONFIG.CHARACTERS.juangou;
+                const char = player.character || CONFIG.CHARACTERS.juangou;
                 let hpHearts = '';
-                for (let i = 0; i < (pos.player.maxHp || CONFIG.MAX_HP); i++) { hpHearts += i < pos.player.hp ?
-                        '❤️' : '🖤'; }
+                for (let i = 0; i < (player.maxHp || CONFIG.MAX_HP); i++) { hpHearts += i < player.hp ? '❤️' : '🖤'; }
                 slot.innerHTML = `
-                    <div class="player-avatar-ring" style="background:linear-gradient(135deg, ${pos.isMe?'#1e3a5f':'#1a1a2e'}, ${pos.isMe?'#0d1b3e':'#0d0d1a'});">${char.icon||char.name[0]}</div>
-                    <div class="text-xs font-bold ${pos.isMe?'text-blue-400':'text-white'} text-center leading-tight">${pos.player.name}${pos.isMe?'(我)':''}</div>
+                    <div class="player-avatar-ring" style="background:linear-gradient(135deg, ${isMe?'#1e3a5f':'#1a1a2e'}, ${isMe?'#0d1b3e':'#0d0d1a'});">${char.icon||char.name[0]}</div>
+                    <div class="text-xs font-bold ${isMe?'text-blue-400':'text-white'} text-center leading-tight">${player.name}${isMe?'(我)':''}</div>
                     <div class="flex gap-0.5 text-xs">${hpHearts}</div>
-                    <div class="text-xs text-yellow-400 font-bold">📚${pos.player.juan}</div>
-                    <div class="move-display" id="move-display-${pos.player.id}" style="display:none;"></div>
+                    <div class="text-xs text-yellow-400 font-bold">📚${player.juan}</div>
+                    <div class="move-display" id="move-display-${player.id}" style="display:none; transform:translate(${ndx*moveOffset}px, ${ndy*moveOffset}px);"></div>
                 `;
+                // 存储方向数据
+                slot.dataset.moveOffsetX = ndx * moveOffset;
+                slot.dataset.moveOffsetY = ndy * moveOffset;
                 table.appendChild(slot);
             });
 
-            // 调整中央区域位置
             const centerArea = document.getElementById('douCenterArea');
             if (centerArea) { centerArea.style.marginTop = '0px';
                 centerArea.style.position = 'relative';
@@ -1846,31 +1763,40 @@
         function updatePlayerSlotMoves() {
             state.gameState.players.forEach((player, id) => {
                 const md = document.getElementById(`move-display-${id}`);
+                const slot = document.getElementById(`player-slot-${id}`);
                 if (!md) return;
-                if (player.move && player.isAlive && (state.gameState.phase === 'result' || player.isReady)) {
+                // 获取存储的偏移量
+                const ox = slot ? parseFloat(slot.dataset.moveOffsetX || 0) : 0;
+                const oy = slot ? parseFloat(slot.dataset.moveOffsetY || 0) : 0;
+                if (player.move && player.isAlive && state.gameState.phase === 'result') {
                     const move = CONFIG.MOVES[player.move];
                     const bgColor = move.bgColor || '#888';
                     md.style.display = 'block';
                     md.style.background = bgColor;
                     md.style.color = '#fff';
-                    md.style.padding = '4px 12px';
-                    md.style.borderRadius = '20px';
-                    md.style.fontSize = '0.8rem';
-                    md.style.boxShadow = `0 0 15px ${bgColor}`;
+                    md.style.padding = '6px 14px';
+                    md.style.borderRadius = '18px';
+                    md.style.fontSize = '1rem';
+                    md.style.fontWeight = '900';
+                    md.style.boxShadow = `0 0 18px ${bgColor}`;
+                    md.style.transform = `translate(${ox}px, ${oy}px)`;
                     md.textContent = `${move.icon} ${move.name}`;
                     if (player.moveInvalidated) { md.textContent += ' ❌';
                         md.style.background = '#6b21a8';
-                        md.style.boxShadow = '0 0 15px #a855f7'; }
+                        md.style.boxShadow = '0 0 20px #a855f7'; }
                     md.classList.add('pop');
                     setTimeout(() => md.classList.remove('pop'), 500);
-                } else if (!player.isAlive) { md.style.display = 'block';
+                } else if (!player.isAlive) {
+                    md.style.display = 'block';
                     md.style.background = '#333';
                     md.style.color = '#999';
-                    md.style.padding = '4px 12px';
-                    md.style.borderRadius = '20px';
+                    md.style.padding = '4px 10px';
+                    md.style.borderRadius = '14px';
                     md.style.fontSize = '0.8rem';
                     md.style.boxShadow = 'none';
-                    md.textContent = '💀 阵亡'; } else { md.style.display = 'none'; }
+                    md.style.transform = `translate(${ox}px, ${oy}px)`;
+                    md.textContent = '💀 阵亡';
+                } else { md.style.display = 'none'; }
             });
         }
 
@@ -1884,14 +1810,15 @@
             state.gameState.players.forEach(p => { if (p.isAlive) { p.move = null;
                     p.target = null;
                     p.isReady = false;
-                    p.moveInvalidated = false; } });
+                    p.moveInvalidated = false;
+                    p.skillActive = false; } });
             updateGameDisplay();
             showMoveSelection();
             updateSkillButton();
             layoutPlayerSlots(); }
 
-        function showMoveSelection() { const myData = state.gameState.players.get(state.myId); if (!myData || !myData
-                .isAlive) { document.getElementById('moveSelectionArea').classList.add('hidden');
+        function showMoveSelection() { const myData = state.gameState.players.get(state.myId); if (!myData || !myData.isAlive) {
+                document.getElementById('moveSelectionArea').classList.add('hidden');
                 document.getElementById('waitingArea').classList.remove('hidden');
                 document.getElementById('resultArea').classList.add('hidden');
                 document.getElementById('turnStatus').textContent = '你已阵亡 - 观战模式';
@@ -1914,8 +1841,7 @@
                 btn.disabled = cj < move.cost;
                 btn.title = cj < move.cost ? `需要 ${move.cost} 卷，当前只有 ${cj} 卷` : ''; }); }
 
-        function selectMove(mt) { const myData = state.gameState.players.get(state.myId); if (!myData || !myData.isAlive)
-                return;
+        function selectMove(mt) { const myData = state.gameState.players.get(state.myId); if (!myData || !myData.isAlive) return;
             const move = CONFIG.MOVES[mt]; if (myData.juan < move.cost) { showToast(`卷数不足！需要${move.cost}卷`, '⚠️'); return; }
             document.querySelectorAll('.move-btn').forEach(b => b.classList.remove('selected'));
             document.getElementById(`btn-${mt}`).classList.add('selected');
@@ -1937,8 +1863,7 @@
             document.getElementById('confirmMoveBtn').disabled = true; }
 
         function selectTargetPlayer(tid, btnEl) { state.gameState.myTarget = tid;
-            document.querySelectorAll('#moveTargets button').forEach(b => { b.classList.remove('bg-blue-600',
-                'border-blue-500');
+            document.querySelectorAll('#moveTargets button').forEach(b => { b.classList.remove('bg-blue-600', 'border-blue-500');
                 b.classList.add('bg-gray-800', 'border-gray-600'); });
             btnEl.classList.remove('bg-gray-800', 'border-gray-600');
             btnEl.classList.add('bg-blue-600', 'border-blue-500');
@@ -1952,8 +1877,8 @@
             myData.move = state.gameState.myMove;
             myData.target = state.gameState.myTarget;
             myData.isReady = true;
-            broadcast({ type: 'game-move', playerId: state.myId, move: state.gameState.myMove, target: state.gameState
-                    .myTarget, juan: myData.juan });
+            broadcast({ type: 'game-move', playerId: state.myId, move: state.gameState.myMove, target: state.gameState.myTarget,
+                juan: myData.juan });
             document.getElementById('moveSelectionArea').classList.add('hidden');
             document.getElementById('waitingArea').classList.remove('hidden');
             document.getElementById('resultArea').classList.add('hidden');
@@ -1963,21 +1888,20 @@
             updateWaitingPlayers();
             updateSkillButton();
             layoutPlayerSlots();
-            updatePlayerSlotMoves(); if (state.isHost) checkAllMovesReady(); }
+            if (state.isHost) checkAllMovesReady(); }
 
         function handleGameMove(fromId, data) { const p = state.gameState.players.get(fromId); if (p) { p.move = data.move;
                 p.target = data.target;
                 p.juan = data.juan;
                 p.isReady = true; }
             updateWaitingPlayers();
-            updatePlayerSlotMoves(); if (state.isHost) checkAllMovesReady(); }
+            if (state.isHost) checkAllMovesReady(); }
 
         function updateWaitingPlayers() { const container = document.getElementById('waitingPlayers');
             container.innerHTML = '';
             state.gameState.players.forEach((p, id) => { if (!p.isAlive) return;
                 const dot = document.createElement('div');
-                dot.className =
-                `w-3 h-3 rounded-full ${p.isReady?'bg-green-500':'bg-gray-600'} transition-all duration-300`;
+                dot.className = `w-3 h-3 rounded-full ${p.isReady?'bg-green-500':'bg-gray-600'} transition-all duration-300`;
                 dot.title = p.name;
                 container.appendChild(dot); }); }
 
@@ -1992,98 +1916,77 @@
             updateGameDisplay();
             layoutPlayerSlots(); }
 
-        // ==================== 技能 ====================
+        // ==================== 技能（统一：给自己+1卷） ====================
         function updateSkillButton() { const myData = state.gameState.players.get(state.myId),
                 sc = document.getElementById('skillContainer'),
                 sb = document.getElementById('skillBtn'),
                 skc = document.getElementById('skillCount'); if (!myData || !myData.isAlive) { sc.classList.add('hidden'); return; }
-            const char = myData.character; if (char.skill && !myData.skillUsed) { sc.classList.remove('hidden');
+            const char = myData.character; if (char.skill && !myData.skillUsed && myData.skillUses > 0) { sc.classList.remove(
+                    'hidden');
                 skc.textContent = myData.skillUses;
-                sb.disabled = myData.skillUsed || state.gameState.phase !== 'selecting'; } else sc.classList.add(
-                'hidden'); }
+                sb.disabled = state.gameState.phase !== 'selecting'; } else sc.classList.add('hidden'); }
 
         function useSkill() { const myData = state.gameState.players.get(state.myId); if (!myData || myData.skillUsed || state
-                .gameState.phase !== 'selecting') return;
+                .gameState.phase !== 'selecting' || myData.skillUses <= 0) return;
+            const char = myData.character;
+            document.getElementById('skillModalName').textContent = char.skill.name;
+            document.getElementById('skillModalDesc').textContent = char.skill.description;
             document.getElementById('skillModal').classList.remove('hidden');
-            document.getElementById('skillMoveSelection').classList.add('hidden');
-            document.getElementById('confirmSkillBtn').disabled = true;
-            const tc = document.getElementById('skillTargets');
-            tc.innerHTML = '';
-            state.gameState.players.forEach((p, id) => { if (id !== state.myId && p.isAlive) { const btn = document
-                        .createElement('button');
-                    btn.className =
-                        'cyber-btn px-3 py-1.5 rounded-full bg-gray-800 border border-gray-600 hover:border-purple-500 text-xs transition-all';
-                    btn.textContent = p.name;
-                    btn.onclick = () => selectSkillTarget(id, btn);
-                    tc.appendChild(btn); } }); }
+            document.getElementById('confirmSkillBtn').disabled = false;
+            state.gameState.skillTarget = state.myId; }
 
-        function selectSkillTarget(tid, btnEl) { state.gameState.skillTarget = tid;
-            document.querySelectorAll('#skillTargets button').forEach(b => { b.classList.remove('bg-purple-600',
-                'border-purple-500');
-                b.classList.add('bg-gray-800', 'border-gray-600'); });
-            btnEl.classList.remove('bg-gray-800', 'border-gray-600');
-            btnEl.classList.add('bg-purple-600', 'border-purple-500');
-            document.getElementById('skillMoveSelection').classList.remove('hidden'); }
-
-        function selectSkillMove(mt) { state.gameState.skillPredictedMove = mt;
-            document.querySelectorAll('.skill-move-btn').forEach(b => b.classList.remove('ring-2', 'ring-yellow-400'));
-            document.querySelector(`button[onclick="selectSkillMove('${mt}')"]`).classList.add('ring-2', 'ring-yellow-400');
-            document.getElementById('confirmSkillBtn').disabled = false; }
-
-        function confirmSkill() { const myData = state.gameState.players.get(state.myId); if (!myData || !state.gameState
-                .skillTarget || !state.gameState.skillPredictedMove) return;
+        function confirmSkill() { const myData = state.gameState.players.get(state.myId); if (!myData || myData.skillUsed || myData
+                .skillUses <= 0) return;
             myData.skillUsed = true;
+            myData.skillUses -= 1;
             myData.skillActive = true;
-            myData.skillPrediction = { targetId: state.gameState.skillTarget, predictedMove: state.gameState
-                    .skillPredictedMove };
-            broadcast({ type: 'skill-used', playerId: state.myId, skillData: myData.skillPrediction });
+            myData.juan += 1;
+            broadcast({ type: 'skill-used', playerId: state.myId });
             document.getElementById('skillModal').classList.add('hidden');
             updateSkillButton();
-            showToast(
-                `已预判：${state.gameState.players.get(state.gameState.skillTarget).name} 会使用 ${CONFIG.MOVES[state.gameState.skillPredictedMove].name}`,
-                '🎯');
-            state.gameState.skillTarget = null;
-            state.gameState.skillPredictedMove = null; }
+            updateMyStatusDisplay();
+            showToast('技能使用成功！卷数+1', '📚');
+            addGameChatMessage('系统', `你使用了技能【${myData.character.skill.name}】，卷数+1！`);
+            state.gameState.skillTarget = null; }
 
         function cancelSkill() { document.getElementById('skillModal').classList.add('hidden');
-            state.gameState.skillTarget = null;
-            state.gameState.skillPredictedMove = null; }
+            state.gameState.skillTarget = null; }
 
-        function handleSkillEffects() { const swt = [];
-            state.gameState.players.forEach((p, pid) => { if (p.skillActive && p.skillPrediction) { const target = state
-                        .gameState.players.get(p.skillPrediction.targetId); if (!target || !target.isAlive || !target
-                        .move) return; if (target.move === p.skillPrediction.predictedMove) { const tm = CONFIG.MOVES[
-                            target.move];
-                        target.juan = Math.max(0, target.juan - tm.cost);
-                        target.moveInvalidated = true;
-                        state.gameState.results.push({ attacker: p.name, attackerId: pid, move: 'skill',
-                            target: target.name, targetId: target.id, damage: 0,
-                            effect: `🎯 ${p.name} 预判准确！${target.name} 的 ${CONFIG.MOVES[target.move].name} 被无效化，扣除${tm.cost}点卷数！`,
-                            blocked: true, skillSuccess: true }); } else { target.skillWrongBy = pid;
-                        swt.push(target.id); }
-                    p.skillActive = false; } }); return swt; }
+        function handleSkillEffects() {
+            const results = [];
+            state.gameState.players.forEach((p, pid) => {
+                if (p.skillActive && p.skillUsed) {
+                    // 技能效果已在skill-used消息中处理（给自己+1卷）
+                    results.push({ attacker: p.name, attackerId: pid, move: 'skill', target: p.name, targetId: pid,
+                        damage: 0,
+                        effect: `📚 ${p.name} 使用技能【${p.character.skill.name}】，卷数+1！`, blocked: false,
+                        skillSuccess: true });
+                    p.skillActive = false;
+                }
+            });
+            return results;
+        }
 
         // ==================== 回合结算 ====================
         function calculateRoundResult() {
-            const swt = handleSkillEffects();
-            const results = [];
+            const skillResults = handleSkillEffects();
+            const results = [...skillResults];
             const ap = Array.from(state.gameState.players.values()).filter(p => p.isAlive);
             ap.forEach(attacker => { if (!attacker.move || attacker.moveInvalidated) return;
                 const move = CONFIG.MOVES[attacker.move],
                     target = attacker.target ? state.gameState.players.get(attacker.target) : null;
-                let result = { attacker: attacker.name, attackerId: attacker.id, move: attacker.move, target: target ?
-                        target.name : null, targetId: attacker.target, damage: 0, effect: '', blocked: false }; if (
-                    attacker.move === 'fanjuan' && target) { if (target.move === 'tangping') { result.blocked = true;
+                let result = { attacker: attacker.name, attackerId: attacker.id, move: attacker.move, target: target ? target
+                        .name : null, targetId: attacker.target, damage: 0, effect: '', blocked: false }; if (attacker.move ===
+                    'fanjuan' && target) { if (target.move === 'tangping') { result.blocked = true;
                         result.effect = `${target.name} 躺平免疫了反卷伤害！`; } else { result.damage = 1;
                         result.effect = `${target.name} 受到 1 点伤害！`;
-                        target.hp -= 1; } } else if (attacker.move === 'pengsha' && target) { if (target.move ===
-                    'bailan') { result.blocked = true;
+                        target.hp -= 1; } } else if (attacker.move === 'pengsha' && target) { if (target.move === 'bailan') {
+                        result.blocked = true;
                         result.effect = `${target.name} 摆烂免疫了捧杀伤害！`; } else { result.damage = 2;
                         result.effect = `${target.name} 受到 2 点伤害！`;
-                        target.hp -= 2; } } else if (attacker.move === 'pofang' && target) { if (target.move ===
-                        'tangping' || target.move === 'bailan') { result.damage = 1;
-                        result.effect =
-                        `${target.name} ${target.move==='tangping'?'躺平':'摆烂'} 被破防，受到 1 点伤害！`;
+                        target.hp -= 2; } } else if (attacker.move === 'pofang' && target) { if (target.move === 'tangping' ||
+                        target.move === 'bailan') { result.damage = 1;
+                        result.effect = `${target.name} ${target.move==='tangping'?'躺平':'摆烂'} 被破防，受到 1 点伤害！`;
                         target.hp -= 1; } else result.effect = `${target.name} 没有躺平/摆烂，破防无效！`; }
                 results.push(result); });
             ap.forEach(p => { if (p.move === 'juan' && !p.moveInvalidated) { p.juan += 1;
@@ -2092,21 +1995,13 @@
             const dp = [];
             ap.forEach(p => { if (p.hp <= 0 && p.isAlive) { p.isAlive = false;
                     dp.push(p);
-                    results.push({ attacker: null, attackerId: null, move: 'death', target: p.name, targetId: p.id,
-                        damage: 0, effect: `💀 ${p.name} 阵亡了！`, blocked: false }); } });
-            swt.forEach(tid => { const t = state.gameState.players.get(tid); if (t && t.isAlive && t.juan > 0) { t.juan -=
-                    1;
-                    results.push({ attacker: state.gameState.players.get(t.skillWrongBy)?.name, attackerId: t
-                            .skillWrongBy, move: 'skill', target: t.name, targetId: t.id, damage: 0,
-                        effect: `🎯 预判失败，扣除 ${t.name} 1点卷数！`, blocked: false, skillSuccess: false }); } else if (t &&
-                    t.isAlive) results.push({ attacker: state.gameState.players.get(t.skillWrongBy)?.name,
-                        attackerId: t.skillWrongBy, move: 'skill', target: t.name, targetId: t.id, damage: 0,
-                        effect: `🎯 预判失败，但 ${t.name} 卷数为0，无法扣除！`, blocked: false, skillSuccess: false }); });
+                    results.push({ attacker: null, attackerId: null, move: 'death', target: p.name, targetId: p.id, damage: 0,
+                        effect: `💀 ${p.name} 阵亡了！`, blocked: false }); } });
             state.gameState.results = results;
             const ps = Array.from(state.gameState.players.values()).map(p => ({ id: p.id, name: p.name, characterId: p
-                    .character?.id, hp: p.hp, maxHp: p.maxHp, juan: p.juan, isAlive: p.isAlive, move: p.move,
-                    target: p.target, skillUses: p.skillUses, skillUsed: p.skillUsed, skillPrediction: p
-                    .skillPrediction, skillActive: p.skillActive, moveInvalidated: p.moveInvalidated }));
+                    .character?.id, hp: p.hp, maxHp: p.maxHp, juan: p.juan, isAlive: p.isAlive, move: p.move, target: p
+                    .target, skillUses: p.skillUses, skillUsed: p.skillUsed, skillPrediction: p.skillPrediction,
+                    skillActive: p.skillActive, moveInvalidated: p.moveInvalidated }));
             broadcast({ type: 'game-result', results, playersState: ps, round: state.gameState.round });
             showRoundResult(results);
             setTimeout(() => checkGameEnd(), 2000);
@@ -2115,8 +2010,8 @@
         function showRoundResult(results, playersState = null) {
             state.gameState.players.forEach(p => delete p.skillWrongBy);
             stopRoundCountdown();
-            updateCountdownDisplay(); if (playersState) { playersState.forEach(p => { const lp = state.gameState.players
-                        .get(p.id); if (lp) { lp.hp = p.hp;
+            updateCountdownDisplay(); if (playersState) { playersState.forEach(p => { const lp = state.gameState.players.get(p
+                        .id); if (lp) { lp.hp = p.hp;
                         lp.maxHp = p.maxHp;
                         lp.juan = p.juan;
                         lp.isAlive = p.isAlive;
@@ -2137,17 +2032,17 @@
             const container = document.getElementById('resultContent');
             container.innerHTML = '';
             results.forEach((r, i) => { const div = document.createElement('div');
-                div.className = 'fade-in p-2 rounded-lg bg-gray-800/50 border border-gray-700 text-xs';
+                div.className = 'fade-in p-2 rounded-lg bg-gray-800/50 border border-gray-700 text-sm';
                 div.style.animationDelay = `${i*0.1}s`;
                 let content = ''; if (r.move === 'death') content =
-                    `<div class="text-red-400 font-bold text-center">${r.effect}</div>`; else if (r.move === 'juan')
-                    content =
-                    `<div class="flex items-center gap-1 text-yellow-400"><span>📚</span><span>${r.effect}</span></div>`;
+                    `<div class="text-red-400 font-bold text-center result-move-name">${r.effect}</div>`; else if (r.move ===
+                    'juan') content =
+                    `<div class="flex items-center gap-1 text-yellow-400"><span class="result-move-name">📚</span><span>${r.effect}</span></div>`;
                 else if (r.move === 'skill') content =
-                    `<div class="skill-effect p-1.5 rounded-lg"><div class="flex items-center gap-1"><span class="text-purple-400 font-bold">🎯 ${r.attacker}</span><span class="text-gray-400">预判</span>${r.target?`<span class="text-gray-400">→</span><span class="text-white">${r.target}</span>`:''}</div><div class="text-xs ${r.skillSuccess?'text-green-400':'text-yellow-400'} pl-6">${r.effect}</div></div>`;
+                    `<div class="skill-effect p-1.5 rounded-lg"><div class="flex items-center gap-1"><span class="text-purple-400 font-bold result-move-name">📚 ${r.attacker}</span><span class="text-gray-400">技能</span></div><div class="text-xs text-green-400 pl-6">${r.effect}</div></div>`;
                 else { const mc = CONFIG.MOVES[r.move];
                     content =
-                    `<div class="flex items-center gap-1"><span class="${mc.color} font-bold">${mc.icon} ${r.attacker}</span><span class="text-gray-400">→</span><span class="${mc.color} font-bold">${mc.name}</span>${r.target?`<span class="text-gray-400">→</span><span class="text-white">${r.target}</span>`:''}<span class="text-xs ${r.blocked?'text-green-400':r.damage>0?'text-red-400':'text-gray-400'} ml-auto">${r.effect}</span></div>`; }
+                    `<div class="flex items-center gap-1"><span class="${mc.color} font-bold result-move-name">${mc.icon} ${r.attacker}</span><span class="text-gray-400">→</span><span class="${mc.color} font-bold result-move-name">${mc.name}</span>${r.target?`<span class="text-gray-400">→</span><span class="text-white">${r.target}</span>`:''}<span class="text-xs ${r.blocked?'text-green-400':r.damage>0?'text-red-400':'text-gray-400'} ml-auto">${r.effect}</span></div>`; }
                 div.innerHTML = content;
                 container.appendChild(div); });
             updateGameDisplay();
@@ -2157,8 +2052,8 @@
             updatePlayerSlotMoves();
         }
 
-        function checkGameEnd() { const ap = Array.from(state.gameState.players.values()).filter(p => p.isAlive); if (ap
-                .length === 0) { stopRoundCountdown();
+        function checkGameEnd() { const ap = Array.from(state.gameState.players.values()).filter(p => p.isAlive); if (ap.length ===
+                0) { stopRoundCountdown();
                 broadcast({ type: 'game-over', winner: null, reason: '全员阵亡，平局！' });
                 showGameOver(null, '全员阵亡，平局！'); } else if (ap.length === 1) { stopRoundCountdown();
                 broadcast({ type: 'game-over', winner: ap[0].id, reason: `${ap[0].name} 成为最后的卷王！` });
@@ -2219,42 +2114,41 @@
 
         function returnToLobby() { stopRoundCountdown();
             state.gameStarted = false;
-            state.gameState = { round: 1, players: new Map(), phase: 'selecting', myMove: null, myTarget: null,
-                results: [], countdownTimer: null, countdownLeft: CONFIG.ROUND_COUNTDOWN_TIME, countdownRunning: false,
-                skillTarget: null, skillPredictedMove: null };
+            state.gameState = { round: 1, players: new Map(), phase: 'selecting', myMove: null, myTarget: null, results: [],
+                countdownTimer: null, countdownLeft: CONFIG.ROUND_COUNTDOWN_TIME, countdownRunning: false, skillTarget: null,
+                skillPredictedMove: null };
             state.isReady = false;
             state.allMembers.forEach(m => m.isReady = false);
             document.getElementById('gameRoomPanel').classList.add('hidden');
             document.getElementById('gameOverModal').classList.add('hidden');
             document.getElementById('chatPanel').classList.remove('hidden');
-            const btn = document.getElementById('readyBtn'); if (btn) { btn.classList.remove('from-green-600',
-                    'to-green-700', 'border-green-500/30', 'ready-badge');
+            const btn = document.getElementById('readyBtn'); if (btn) { btn.classList.remove('from-green-600', 'to-green-700',
+                    'border-green-500/30', 'ready-badge');
                 btn.classList.add('from-yellow-600', 'to-orange-700', 'border-yellow-500/30');
                 document.getElementById('readyBtnIcon').textContent = '⏳';
                 document.getElementById('readyBtnText').textContent = '准备就绪'; }
             updateReadyStatusList();
             updateStartGameButton(); if (state.isHost) broadcast({ type: 'return-lobby' }); }
 
-        function updateGameDisplay() { const aliveCount = Array.from(state.gameState.players.values()).filter(p => p
-                .isAlive).length,
+        function updateGameDisplay() { const aliveCount = Array.from(state.gameState.players.values()).filter(p => p.isAlive)
+                .length,
                 totalCount = state.gameState.players.size;
             document.getElementById('aliveCount').textContent = aliveCount;
             document.getElementById('totalPlayerCount').textContent = totalCount;
             updateMyStatusDisplay();
             layoutPlayerSlots();
-            updatePlayerSlotMoves(); }
+            if (state.gameState.phase === 'result') updatePlayerSlotMoves(); }
 
         function updateMyStatusDisplay() { const myData = state.gameState.players.get(state.myId); if (!myData) return;
             const char = myData.character || CONFIG.CHARACTERS.juangou;
             const cd = document.getElementById('myCharacterDisplay'); if (cd) cd.innerHTML =
-                `<span class="text-2xl">${char.icon||char.name[0]}</span><span class="font-bold text-white text-sm">${char.name}</span>`;
+                `<span class="text-2xl">${char.icon}</span><span class="font-bold text-white text-sm">${char.name}</span>`;
             const hpContainer = document.getElementById('myHpDisplay');
             let hpHtml = '';
             const mh = myData.maxHp || CONFIG.MAX_HP; for (let i = 0; i < mh; i++) hpHtml += i < myData.hp ?
                 '<span class="text-xl">❤️</span>' : '<span class="text-xl opacity-30">🖤</span>';
             hpContainer.innerHTML = hpHtml;
-            const je = document.getElementById('myJuanCount'); if (je.textContent != myData.juan) { je.textContent = myData
-                    .juan;
+            const je = document.getElementById('myJuanCount'); if (je.textContent != myData.juan) { je.textContent = myData.juan;
                 je.classList.remove('juan-count');
                 void je.offsetWidth;
                 je.classList.add('juan-count'); } }
